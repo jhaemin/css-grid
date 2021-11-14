@@ -1,0 +1,14 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serve ./src --listen 9000"
+  },
+  "author": "Jang Haemin <io@jhaemin.com>",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
