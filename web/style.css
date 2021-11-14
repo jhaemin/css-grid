@@ -119,3 +119,25 @@ h2 {
   grid-auto-columns: 1fr;
   grid-auto-rows: 60px;
 }
+
+.layering .grid-1 {
+  grid-auto-rows: 100px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.layering .grid-1 .item-1,
+.layering .grid-1 .item-2 {
+  grid-row-start: 1;
+  grid-column-end: span 2;
+}
+
+.layering .grid-1 .item-1 {
+  background-color: darkcyan;
+  grid-column-start: 1;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.layering .grid-1 .item-2 {
+  grid-column-start: 2;
+}
